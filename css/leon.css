@@ -80,6 +80,10 @@ body {
 .header .logo {
 
   width: 60px;
+  transition: var(--main-duration);
+}
+.header .logo:hover{
+transform:  scale(1.6);
 }
 .header .links {
   position: relative;
@@ -148,14 +152,17 @@ body {
 
 .scrol {
   z-index: 100;
-  width: 0;
-  height: 0;
-  border-color: transparent transparent red transparent;
-  border-width: 27px;
-  border-style: solid;
-  position: fixed;
-  bottom: 2px;
-  left: 0;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    color: #51cbb8;
+    border-width: 27px;
+    border-style: solid;
+    position: fixed;
+    font-size: 59px;
+    bottom: 15px;
+    left: -20px;
+    text-shadow: 0px 11px 11px var(--main-color);
 
 }
 /* End Header */
